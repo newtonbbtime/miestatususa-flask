@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Estatus USA</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Mi Estatus USA</h1>
+    <form method="post">
+        <input type="text" name="receipt" placeholder="Ingresa tu número de caso USCIS" required>
+        <button type="submit">Consultar</button>
+    </form>
+    {% if status %}
+        <div class="result">{{ status }}</div>
+    {% endif %}
+    {% if error %}
+        <div class="error">{{ error }}</div>
+    {% endif %}
+</body>
+</html>

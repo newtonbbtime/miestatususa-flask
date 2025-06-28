@@ -1,0 +1,7 @@
+
+body { font-family: sans-serif; text-align: center; padding: 30px; }
+form { margin: 20px; }
+input { padding: 10px; width: 250px; }
+button { padding: 10px 20px; }
+.result { color: green; margin-top: 20px; font-weight: bold; }
+.error { color: red; margin-top: 20px; }
